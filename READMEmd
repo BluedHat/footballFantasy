@@ -1,0 +1,35 @@
+Olá,
+
+Este é o desenho inicial de um Football Fantasy Game. Ainda há bastante coisa para construir mas a estrutura básica de player está quase pronta.
+
+Como efetuar requisições para o EndPoint:
+
+Create a New Player, basta usar um JSON com as informações conforme abaixo:
+
+POST http://localhost:8080/player/create
+
+{
+	"gametarg": "Foxx",
+	"name": "Cedric",
+	"age": "28",
+	"mode": "Pro",
+	"console": "Windows",
+	"heartTeam": "Vasco",
+	"mail": "uj456e@pppp",
+	"address": "rua da luz",
+	"location": "544421",
+	"country": "Afeganistao",
+	"password": "899458"
+}
+
+OBs.: Os dados de MODE, CONSOLE, COUNTRY e HEARTTEAM são ENUMS
+
+Delete a Player - > Basta passar o conforme
+
+http://localhost:8080/player/remove/85c35277-9021-4793-abf7-1e9971183931
+
+List Player  -> basta passar a URL http://localhost:8080/player
+
+Get One Player -> basta passar o ID na URL conforme exemplo -> http://localhost:8080/player/85c35277-9021-4793-abf7-1e9971183931
+
+Status do sistema -> basta passar a URL -> http://localhost:8080/status e se tudo estiver ok uma msg será retornada.
