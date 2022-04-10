@@ -33,3 +33,6 @@ List Player  -> basta passar a URL http://localhost:8080/player
 Get One Player -> basta passar o ID na URL conforme exemplo -> http://localhost:8080/player/85c35277-9021-4793-abf7-1e9971183931
 
 Status do sistema -> basta passar a URL -> http://localhost:8080/status e se tudo estiver ok uma msg será retornada.
+
+
+Obs.: Ao baixar este documento é necessário inserir as informações do banco no arquivo Resoources\ApllicationProperties
